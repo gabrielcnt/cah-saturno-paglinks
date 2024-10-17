@@ -20,10 +20,113 @@ body {
     height: 150px;
     width: 150px;
     margin: 30px auto;
+    margin-bottom: 10px;
     border-radius: 50%;
     border: 5px solid var(--cor2);
 }
 
-.descrição h3 {
-    font-family: "Montserrat",;
+.descrição {
+    margin: 0 50px;
+    text-align: center;
 }
+
+.descrição h3 {
+     font-family: "Montserrat", "sans-serif";
+     font-size: 1.5rem;
+     margin: 10px auto;
+}
+
+p {
+    font-family: "Montserrat", "sans-serif";
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: "Montserrat", "sans-serif";
+text-align: center;    margin-bottom: 10px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.social {
+    border: 2px solid var(--cor2);
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 10px black,
+    0 0 5px var(--cor2);
+}
+
+.social svg {
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
+.social:hover, .social svg:hover {
+
+    fill: var(--cor2);
+    transition: 0.2s;    
+}
+
+.loja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.catalogo1, .catalogo2, .catalogo3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+    font-family: "Montserrat", "sans-serif";
+    width: 300px;
+    height: 40px;
+    border: 2px solid var(--cor2);
+    box-shadow: inset 0 0 10px black,
+    0 0 5px var(--cor2);
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+}
+
+.catalogo1, .catalogo3 {
+    margin-right: 100px;
+}
+
+.catalogo2 {
+    margin-left: 100px;
+}
+
+.loja svg {
+    position: absolute;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    fill: white;
+}
+
+.catalogo1:hover, .catalogo2:hover, .catalogo3:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
