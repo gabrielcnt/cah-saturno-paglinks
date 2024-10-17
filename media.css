@@ -1,0 +1,40 @@
+@media  screen and (min-width: 320px ) and (max-width: 800px) {
+
+    :root {
+        --cor1: #65136E;
+        --cor2: #C100D6;
+    }
+    
+    body {
+        background-color: var(--cor1);
+    }
+    
+    .logo {
+        height: 150px;
+        width: 150px;
+        margin: 30px auto;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        border: 5px solid var(--cor2);
+    }
+    
+    .descrição {
+        margin: 0 50px;
+        text-align: center;
+    }
+
+    .descrição h3 {
+         font-family: "Montserrat", "sans-serif";
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social {
+        color: var(--cor2);
+    }
+
+}
