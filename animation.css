@@ -30,7 +30,7 @@
     animation: anima1 5s linear infinite;
 }
 
-.asteroid, #t {
+.asteroid, .saturno, .rinsaturn, #t {
     position: absolute;
     background-color: transparent;
     transform-style: preserve-3d;
@@ -39,7 +39,7 @@
 
 .ast1 {
     border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
     opacity: 0.6;
     left: -5px;
     top: -5px;
@@ -49,161 +49,160 @@
 }
 .ast2 {
     border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
     opacity: 0.8;
-    left: -5px;
-    top: -5px;
+    left: -10px;
+    top: -10px;
     width: 220px;
     height: 220px;
     animation: anima2 11s linear infinite;
 }
-.ast1 {
+.ast3 {
+    border: 2px solid #ffd0e2;
+    border-left: 2px solid transparent;
+    opacity: 0.4;
+    left: -15px;
+    top: -15px;
+    width: 230px;
+    height: 230px;
+    animation: anima2 15s linear infinite;
+}
+.ast4 {
+    border: 2px solid #ffd0e2;
+    border-left: 2px solid transparent;
+    opacity: 0.9;
+    left: -20px;
+    top: -20px;
+    width: 240px;
+    height: 240px;
+    animation: anima2 10s linear infinite;
+}
+.ast5 {
+    border: 2px solid #ffd0e2;
+    border-left: 2px solid transparent;
+    opacity: 0.6;
+    left: -25px;
+    top: -25px;
+    width: 250px;
+    height: 250px;
+    animation: anima2 16s linear infinite;
+}
+.ast6 {
+    border: 2px solid #ffd0e2;
+    border-left: 2px solid transparent;
+    opacity: 0.6;
+    left: -30px;
+    top: -30px;
+    width: 260px;
+    height: 260px;
+    animation: anima2 19s linear infinite;
+}
+.ast7 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.5;
+    left: -35px;
+    top: -35px;
+    width: 270px;
+    height: 270px;
+    animation: anima2 14s linear infinite;
+}
+.ast8 {
+    border: 2px solid #ffd0e2;
+    border-bottom: 2px solid transparent;
+    opacity: 0.7;
+    left: -40px;
+    top: -40px;
+    width: 280px;
+    height: 280px;
+    animation: anima2 10s linear infinite;
+}
+.ast9 {
+    border: 2px solid #ffd0e2;
+    border-top: 2px solid transparent;
+    opacity: 0.9;
+    left: -45px;
+    top: -45px;
+    width: 290px;
+    height: 290px;
+    animation: anima2 19s linear infinite;
+}
+.ast10 {
     border: 2px solid #ffd0e2;
     border-right: 2px solid transparent;
     opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
+    left: -50px;
+    top: -50px;
+    width: 300px;
+    height: 300px;
+    animation: anima2 12s linear infinite;
 }
-.ast1 {
+.ast11 {
+    border: 2px solid #ffd0e2;
+    border-left: 2px solid transparent;
+    opacity: 0.4;
+    left: -55px;
+    top: -55px;
+    width: 310px;
+    height: 310px;
+    animation: anima2 25s linear infinite;
+}
+.ast12 {
+    border: 2px solid #ffd0e2;
+    border-bottom: 2px solid transparent;
+    opacity: 0.3;
+    left: -60px;
+    top: -60px;
+    width: 320px;
+    height: 320px;
+    animation: anima2 30s linear infinite;
+}
+.ast13 {
+    border: 2px solid #ffd0e2;
+    border-left: 2px solid transparent;
+    opacity: 0.4;
+    left: -65px;
+    top: -65px;
+    width: 330px;
+    height: 330px;
+    animation: anima2 22s linear infinite;
+}
+.ast14 {
+    border: 2px solid #ffd0e2;
+    border-top: 2px solid transparent;
+    opacity: 0.3;
+    left: -70px;
+    top: -70px;
+    width: 340px;
+    height: 340px;
+    animation: anima2 27s linear infinite;
+}
+.ast15 {
+    border: 2px solid #ffd0e2;
+    border-left: 2px solid transparent;
+    opacity: 0.7;
+    left: -75px;
+    top: -75px;
+    width: 350px;
+    height: 350px;
+    animation: anima2 20s linear infinite;
+}
+.ast16 {
     border: 2px solid #ffd0e2;
     border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
+    opacity: 0.4;
+    left: -80px;
+    top: -80px;
+    width: 355px;
+    height: 355px;
+    animation: anima2 30s linear infinite;
 }
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-.ast1 {
-    border: 2px solid #ffd0e2;
-    border-right: 2px solid transparent;
-    opacity: 0.6;
-    left: -5px;
-    top: -5px;
-    width: 210px;
-    height: 210px;
-    animation: anima2 24s linear infinite;
-}
-
-/* @keyframes anima1 {
+@keyframes anima1 {
     0% {
-        transform: rotateX(-75deg) rotateY(20deg) rotateZ(0deg);
+        transform: rotateX(75deg) rotateY(20deg) rotateZ(0deg);
     }
     100% {
-        transform: rotateX(-75deg) rotateY(20deg) rotateZ(360deg);
+        transform: rotateX(75deg) rotateY(20deg) rotateZ(360deg);
     }
 }
 @keyframes anima2 {
@@ -213,4 +212,4 @@
     100% {
         transform: rotateX(0deg) rotateY(0deg) rotateZ(360deg);
     }
-} */
+}
