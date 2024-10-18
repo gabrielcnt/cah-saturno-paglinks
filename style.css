@@ -8,8 +8,10 @@
 }
 
 :root {
-    --cor1: #65136E;
-    --cor2: #C100D6;
+    --cor1: #8601CE;
+    --cor2: #BCABFB;
+    --cor3: black;
+    --cor4: white;
 }
 
 body {
@@ -38,18 +40,25 @@ body {
 
 p {
     font-family: "Montserrat", "sans-serif";
+    font-weight: 600;
+     line-height: 25px;
+     color: var(--cor4);
 }
 
 h1 {
-    font-family: "Playfair Display";
-    font-style: italic;
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 2.9rem;
     text-align: center;
     margin: 20px 0;
+    color: var(--cor4);
 }
 
 h2 {
     font-family: "Montserrat", "sans-serif";
-text-align: center;    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--cor4);
 }
 
 .redes {
@@ -69,13 +78,13 @@ text-align: center;    margin-bottom: 10px;
     justify-content: center;
     cursor: pointer;
     box-shadow: inset 0 0 10px black,
-    0 0 5px var(--cor2);
+    0 0 8px var(--cor2);
 }
 
 .social svg {
     width: 50px;
     height: 50px;
-    fill: white;
+    fill: var(--cor4);
 }
 
 .social:hover, .social svg:hover {
@@ -122,11 +131,26 @@ text-align: center;    margin-bottom: 10px;
     width: 30px;
     height: 30px;
     margin: 3px;
-    fill: white;
+    fill: var(--cor4);
 }
 
 .catalogo1:hover, .catalogo2:hover, .catalogo3:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+.colecionaveis {
+    display: flex;
+    overflow-y: hidden;
+}
+
+.colec img {
+    width: 350px;
+    padding: 0 5px;
+    height: 400px;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.281);
+}
+
 
