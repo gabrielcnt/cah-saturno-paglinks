@@ -7,6 +7,7 @@
     color: white;
     text-transform: capitalize;
     user-select: none;
+    z-index: 1;
 }
 
 :root {
@@ -17,7 +18,7 @@
 }
 
 html, body {
-    background-color: var(--cor3);
+    background: radial-gradient(ellipse at bottom, var(--cor1) 0%, var(--cor3) 80%);
     overflow-x: hidden;
 }
 
@@ -148,6 +149,7 @@ h2 {
     margin: 10px auto;
     border-radius: 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.281);
+    
 }
 
 
