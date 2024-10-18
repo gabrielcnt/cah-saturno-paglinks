@@ -16,8 +16,9 @@
     --cor4: white;
 }
 
-body {
-    background-color: var(--cor1);
+html, body {
+    background-color: var(--cor3);
+    overflow-x: hidden;
 }
 
 .descrição {
@@ -136,6 +137,7 @@ h2 {
 
 .colecionaveis {
     display: flex;
+    width: 100vw;
     overflow-y: hidden;
 }
 
