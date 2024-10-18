@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    text-transform: capitalize;
+    user-select: none;
 }
 
 :root {
@@ -18,18 +20,10 @@ body {
     background-color: var(--cor1);
 }
 
-.logo {
-    height: 150px;
-    width: 150px;
-    margin: 30px auto;
-    margin-bottom: 10px;
-    border-radius: 50%;
-    border: 5px solid var(--cor2);
-}
-
 .descrição {
     margin: 0 50px;
     text-align: center;
+    margin-top: 250px
 }
 
 .descrição h3 {
@@ -41,8 +35,9 @@ body {
 p {
     font-family: "Montserrat", "sans-serif";
     font-weight: 600;
-     line-height: 25px;
-     color: var(--cor4);
+    line-height: 25px;
+    color: var(--cor4);
+    user-select: none;
 }
 
 h1 {

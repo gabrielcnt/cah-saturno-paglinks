@@ -1,0 +1,216 @@
+
+
+.saturno, .rinsaturn {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    transform: translate(-50%, 0);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    z-index: 1;
+    background: linear-gradient(20deg, #e38175 20%, #faa892, #faa892);
+    
+}
+.rinsaturn {
+    background: linear-gradient(20deg, transparent 45%, #faa892, #e38138, #e38175);
+    z-index: 3;
+}
+
+.asteroid {
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ffd0e2;
+    border-radius: 50%;
+    border-right: 2px solid transparent;
+    animation: anima1 5s linear infinite;
+}
+
+.asteroid, #t {
+    position: absolute;
+    background-color: transparent;
+    transform-style: preserve-3d;
+    border-radius: 50%;
+}
+
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast2 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.8;
+    left: -5px;
+    top: -5px;
+    width: 220px;
+    height: 220px;
+    animation: anima2 11s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+.ast1 {
+    border: 2px solid #ffd0e2;
+    border-right: 2px solid transparent;
+    opacity: 0.6;
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+    animation: anima2 24s linear infinite;
+}
+
+/* @keyframes anima1 {
+    0% {
+        transform: rotateX(-75deg) rotateY(20deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(-75deg) rotateY(20deg) rotateZ(360deg);
+    }
+}
+@keyframes anima2 {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(360deg);
+    }
+} */
