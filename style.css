@@ -157,7 +157,7 @@ h2 {
 
 .colecionaveis {
     display: flex;
-    width: 700px;
+    max-width: 700px;
     overflow-y: hidden;
     margin-bottom: 20px;
     border-radius: 20px;
