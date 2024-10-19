@@ -1,10 +1,10 @@
 
 /* ______________________________ANIMAÇÃO DE SATURNO______________________________ */
 
-.container {
+.cont-sat {
     position: relative;
     width: 100%;
-    height: 100vh; /* Ou defina um valor específico */
+    height: 250px; 
     overflow: hidden; /* Impede que qualquer coisa saia */
     margin: 0 auto;
 }
