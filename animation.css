@@ -1,6 +1,14 @@
 
 /* ______________________________ANIMAÇÃO DE SATURNO______________________________ */
 
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ou defina um valor específico */
+    overflow: hidden; /* Impede que qualquer coisa saia */
+    margin: 0 auto;
+}
+
 .saturno, .rinsaturn {
     position: absolute;
     left: 50%;
@@ -218,9 +226,7 @@
 
 /* ______________________________ANIMAÇÃO DAS ESTRELAS______________________________ */
 
-.wrapper {
-    z-index: 0;
-}
+
 .stars {
     width: 1px;
     height: 1px;

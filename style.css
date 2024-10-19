@@ -7,7 +7,6 @@
     color: white;
     text-transform: capitalize;
     user-select: none;
-    z-index: 1;
 }
 
 :root {
@@ -19,7 +18,6 @@
 
 html, body {
     background: radial-gradient(ellipse at bottom, var(--cor1) 0%, var(--cor3) 80%);
-    overflow-x: hidden;
 }
 
 .logo {
@@ -153,12 +151,11 @@ h2 {
 }
 
 .colec img {
-    
-    width: 100vw;
-
+    width: 400px;
+    padding: 0 5px;
     margin: 10px 0;
     border-radius: 15px;
-    overflow-y: hidden;
+    
 }
 
 
