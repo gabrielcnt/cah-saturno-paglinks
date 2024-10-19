@@ -226,8 +226,92 @@
 
 /* ______________________________ANIMAÇÃO DAS ESTRELAS______________________________ */
 
+.cadente {
+    position: absolute;
+    
+    left: 0;
+    transform: rotate(0deg);
+}
 
-.stars {
+.cadente:nth-child(2) {
+    right: 100px;
+}
+
+.cadente:nth-child(2) span {
+    animation-delay: 1s;
+}
+.cadente:nth-child(3) {
+    right: 100px;
+}
+
+.cadente:nth-child(3) span {
+    animation-delay: 4s;
+}
+.cadente:nth-child(4) {
+    right: -80px;
+}
+
+.cadente:nth-child(4) span {
+    animation-delay: 3s;
+}
+.cadente:nth-child(5) {
+    right: 50px;
+}
+
+.cadente:nth-child(5) span {
+    animation-delay: 1s;
+}
+.cadente:nth-child(6) {
+    right: -150px;
+}
+
+.cadente:nth-child(6) span {
+    animation-delay: 2s;
+}
+.cadente:nth-child(7) {
+    right: 230px;
+}
+
+.cadente:nth-child(7) span {
+    animation-delay: 4s;
+}
+
+.spa {
+    width: 140px;
+    height: 2px;
+    display: block;
+    background-image: linear-gradient(to right, #fff, transparent);
+    margin: 50px;
+    position: relative;
+    animation: strecaden 2s linear infinite;
+    opacity: 1;
+    transform: rotate(-135deg);
+}
+
+.spa::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 6px #fff;
+    border-radius: 50px;
+}
+
+    @keyframes strecaden {
+    0% {
+        transform: translate(-150px, -150px) rotate(-135deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(900px, 900px) rotate(-135deg);
+        opacity: 0;
+    }
+}
+
+/* .stars {
     width: 1px;
     height: 1px;
     z-index: 0;
@@ -502,4 +586,4 @@
     100% {
         transform: translateY(-1000px);
     }
-}
+} */
