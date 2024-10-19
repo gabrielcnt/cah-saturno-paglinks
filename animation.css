@@ -227,7 +227,7 @@
 /* ______________________________ANIMAÇÃO DAS ESTRELAS______________________________ */
 
 
-.stars {
+/* .stars {
     width: 1px;
     height: 1px;
     z-index: 0;
@@ -601,4 +601,4 @@
     100% {
         transform: translateY(-1000px);
     }
-}
+} */
